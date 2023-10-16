@@ -1,0 +1,24 @@
+/* Ensure all content is in the center */
+.OrderPlaced {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .OrderPlaced h2{
+    color: #341133;
+    font-size: 1.7rem;
+    margin-bottom: 65px;
+  }
+
+  .OrderPlaced h4{
+    color: #944317;
+    font-size: 1.5rem;
+  }
+  
+  .OrderPlaced Button {
+    margin-top:0px;
+    font-size: 1.5rem;
+  }
+  
