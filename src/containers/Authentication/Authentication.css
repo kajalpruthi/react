@@ -1,0 +1,38 @@
+.Authentication{
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;  
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+   }
+
+
+.Heading{
+    color: #5C9210;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.ErrorMessage{
+  background-color: #ffcccc; 
+  border: 2px solid #ff0000; 
+  color: #ff0000; 
+  font-weight: bold;
+  padding: 15px; 
+  margin: 20px; 
+  border-radius: 5px; 
+  text-align: center; 
+  font-size: 18px;
+}
+   
+   @media (min-width: 600px){
+       .Authentication{
+           width: 550px;
+       }
+   }

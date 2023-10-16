@@ -1,0 +1,36 @@
+.Input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InputEle{
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.InputEle:focus{
+    outline: none;
+    border-color: rgb(92, 146, 16);
+    /* box-shadow: 1px 1px 1px rgb(172, 171, 171); */
+}
+
+.Invalid{
+    background-color: #fdeeeb;
+    border: 1px solid red;
+}
+.Invalid:focus{
+    border: 1px solid red;
+}
